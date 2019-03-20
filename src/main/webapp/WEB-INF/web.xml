@@ -4,11 +4,18 @@
     <servlet-name>Hello</servlet-name>
     <servlet-class>org.mattpayne.web.w1.Hello</servlet-class>
   </servlet>
+  <servlet>
+  <servlet-name>BandMembersLookup</servlet-name>
+  <servlet-class>org.mattpayne.web.w1.BandMembersLookup</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>Hello</servlet-name>
     <url-pattern>/Hello</url-pattern>
   </servlet-mapping>
-  
+  <servlet-mapping>
+	<servlet-name>BandMembersLookup</servlet-name>
+	<url-pattern>/BandMembersLookup</url-pattern>
+  </servlet-mapping>
   <context-param>
     <param-name>log4j-config-location</param-name>
     <param-value>WEB-INF/log4j.properties</param-value>
