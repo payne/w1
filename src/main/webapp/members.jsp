@@ -5,14 +5,15 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>members</title>
 </head>
 <body>
-<h1>members.jsp</h1>
+<h1>members check in here:</h1>
 <ol>
 <c:forEach var="person" items="${members}">
-<li>${person}</li>
+<li>${person.name}</li>
 </c:forEach>
 </ol>
+
 </body>
 </html>

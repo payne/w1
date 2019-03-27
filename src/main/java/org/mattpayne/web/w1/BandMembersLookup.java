@@ -42,9 +42,9 @@ public class BandMembersLookup extends HttpServlet {
 		// https://learning.oreilly.com/library/view/head-first-servlets/9780596516680/ch03s18.html
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		
-		List<String> lstMembers = new ArrayList<>();
-		lstMembers.add("John");
-		lstMembers.add("Paul");
+		List<Person> lstMembers = new ArrayList<>();
+		lstMembers.add(new Person("John",1));
+		lstMembers.add(new Person("Paul",2));
 		request.setAttribute("members", lstMembers);
 		RequestDispatcher view = request.getRequestDispatcher("members.jsp");
 		view.forward(request, response);
