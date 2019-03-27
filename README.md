@@ -4,3 +4,7 @@ Started with https://github.com/SVladikO/WebAppBankingSystem which found with ra
 then cut out lots of the web.xml and added a simple Hello Servlet.  Happy that things are working.  This will be a starter seed for 
 other work.
 
+
+
+https://stackoverflow.com/tags/jstl/info
+
