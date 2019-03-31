@@ -1,0 +1,19 @@
+    2  curl -s "https://get.sdkman.io" | bash
+    3  sdk install java
+    4  sdk install maven
+    5  sdk install gradle
+   10  git clone git@github.com:payne/w1.git
+   37  python3 -m http.server
+   46  git clone git@github.com:payne/w1.git
+   59  sdk install kotlin
+   60  sdk install groovy
+   64  wget http://mirror.olnevhost.net/pub/apache/tomcat/tomcat-8/v8.5.39/bin/apache-tomcat-8.5.39.tar.gz
+   66  mkdir java
+   67  mv apache-tomcat-8.5.39.tar.gz java
+   68  cd java
+   70  tar xf apache-tomcat-8.5.39.tar.gz 
+   83  sudo apt install lynx
+   85  lynx http://127.0.0.1:8080/w1/Hello
+   87  sudo iptables -L
+   88  sudo iptables -I INPUT 1 -i eth0 -p tcp --dport 8080 -j ACCEPT
+   93  sudo apt install tree
